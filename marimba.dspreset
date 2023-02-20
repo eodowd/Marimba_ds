@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler minVersion="1.0.0">
+  <ui width="812" height="375" bgImage="Images/background.png" layoutMode="relative"
+      bgMode="top_left">
+    <tab name="main">
+      <labeled-knob x="445" y="75" width="80" height="82" textColor="ffffffff" 
+                    trackForegroundColor="ffffffff" trackBackgroundColor="66999999" 
+                    label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" >
+        <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+      </labeled-knob>
+      <labeled-knob x="515" y="75" width="80" height="82" textColor="ffffffff" 
+                    trackForegroundColor="ffffffff" trackBackgroundColor="66999999" 
+                    label="Release" type="float" minValue="0.0" maxValue="20.0" value="20.0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" >
+        <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+      </labeled-knob>
+      <labeled-knob x="585" y="75" width="80" height="82" textColor="ffffffff" 
+                    trackForegroundColor="ffffffff" trackBackgroundColor="66999999" 
+                    label="Chorus" type="float" minValue="0.0" maxValue="1" value="0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+      </labeled-knob>
+      <labeled-knob x="655" y="75" width="80" height="82" textColor="ffffffff" 
+                    trackForegroundColor="ffffffff" trackBackgroundColor="66999999"
+                    label="Tone" type="float" minValue="0" maxValue="1" value="1" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"
+                 translation="table" 
+                 translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000"/>
+      </labeled-knob>
+	  <labeled-knob x="725" y="75" width="80" height="82" textColor="ffffffff" 
+	trackForegroundColor="ffffffff" trackBackgroundColor="66999999"  label="Reverb Mix" type="float" minValue="0" maxValue="1" value="0.0" textColor="ffffffff" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" >
+  <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="linear"  />
+</labeled-knob>
+
+<menu x="600" y="40"  width="200" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+  <option name="Studio">
+    <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Studio.wav" />
+  </option>
+  <option name="Church">
+   <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Church.wav" />
+  </option>
+    <option name="Garage">
+   <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Garage.wav" />
+</option>
+    <option name="Spring">
+   <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Spring.wav" />
+</option>
+</menu>
+    </tab>
+	</ui>
+  <groups volume="-3dB">
+	  <group>
+            <sample end="88238.000" hiNote="24" hiVel="64" loNote="10" loVel="1" path="Terkelsen's Marimba - xfade Samples/24 p.wav" pitchKeyTrack="1.0000" rootNote="24" start="0.000"/>
+            <sample end="157908.000" hiNote="25" hiVel="64" loNote="25" loVel="1" path="Terkelsen's Marimba - xfade Samples/25 p.wav" pitchKeyTrack="1.0000" rootNote="25" start="0.000"/>
+            <sample end="105466.000" hiNote="26" hiVel="64" loNote="26" loVel="1" path="Terkelsen's Marimba - xfade Samples/26 p.wav" pitchKeyTrack="1.0000" rootNote="26" start="0.000"/>
+            <sample end="75724.000" hiNote="27" hiVel="64" loNote="27" loVel="1" path="Terkelsen's Marimba - xfade Samples/27 p.wav" pitchKeyTrack="1.0000" rootNote="27" start="0.000"/>
+            <sample end="93217.000" hiNote="28" hiVel="64" loNote="28" loVel="1" path="Terkelsen's Marimba - xfade Samples/28 p.wav" pitchKeyTrack="1.0000" rootNote="28" start="0.000"/>
+            <sample end="180910.000" hiNote="29" hiVel="64" loNote="29" loVel="1" path="Terkelsen's Marimba - xfade Samples/29 p.wav" pitchKeyTrack="1.0000" rootNote="29" start="0.000"/>
+            <sample end="116839.000" hiNote="30" hiVel="64" loNote="30" loVel="1" path="Terkelsen's Marimba - xfade Samples/30 p.wav" pitchKeyTrack="1.0000" rootNote="30" start="0.000"/>
+            <sample end="107942.000" hiNote="31" hiVel="64" loNote="31" loVel="1" path="Terkelsen's Marimba - xfade Samples/31 p.wav" pitchKeyTrack="1.0000" rootNote="31" start="0.000"/>
+            <sample end="89493.000" hiNote="32" hiVel="64" loNote="32" loVel="1" path="Terkelsen's Marimba - xfade Samples/32 p.wav" pitchKeyTrack="1.0000" rootNote="32" start="0.000"/>
+            <sample end="80792.000" hiNote="33" hiVel="64" loNote="33" loVel="1" path="Terkelsen's Marimba - xfade Samples/33 p.wav" pitchKeyTrack="1.0000" rootNote="33" start="0.000"/>
+            <sample end="80492.000" hiNote="34" hiVel="64" loNote="34" loVel="1" path="Terkelsen's Marimba - xfade Samples/34 p.wav" pitchKeyTrack="1.0000" rootNote="34" start="0.000"/>
+            <sample end="78956.000" hiNote="35" hiVel="64" loNote="35" loVel="1" path="Terkelsen's Marimba - xfade Samples/35 p.wav" pitchKeyTrack="1.0000" rootNote="35" start="0.000"/>
+            <sample end="90664.000" hiNote="36" hiVel="64" loNote="36" loVel="1" path="Terkelsen's Marimba - xfade Samples/36 p.wav" pitchKeyTrack="1.0000" rootNote="36" start="0.000"/>
+            <sample end="95177.000" hiNote="37" hiVel="64" loNote="37" loVel="1" path="Terkelsen's Marimba - xfade Samples/37 p.wav" pitchKeyTrack="1.0000" rootNote="37" start="0.000"/>
+            <sample end="85198.000" hiNote="38" hiVel="64" loNote="38" loVel="1" path="Terkelsen's Marimba - xfade Samples/38 p.wav" pitchKeyTrack="1.0000" rootNote="38" start="0.000" volume="2.0dB"/>
+            <sample end="90909.000" hiNote="39" hiVel="64" loNote="39" loVel="1" path="Terkelsen's Marimba - xfade Samples/39 p.wav" pitchKeyTrack="1.0000" rootNote="39" start="0.000"/>
+            <sample end="77045.000" hiNote="40" hiVel="64" loNote="40" loVel="1" path="Terkelsen's Marimba - xfade Samples/40 p.wav" pitchKeyTrack="1.0000" rootNote="40" start="0.000" volume="3.0dB"/>
+            <sample end="81192.000" hiNote="41" hiVel="64" loNote="41" loVel="1" path="Terkelsen's Marimba - xfade Samples/41 p.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="77465.000" hiNote="42" hiVel="64" loNote="42" loVel="1" path="Terkelsen's Marimba - xfade Samples/42 p.wav" pitchKeyTrack="1.0000" rootNote="42" start="0.000"/>
+            <sample end="80759.000" hiNote="43" hiVel="64" loNote="43" loVel="1" path="Terkelsen's Marimba - xfade Samples/43 p.wav" pitchKeyTrack="1.0000" rootNote="43" start="0.000" volume="2.0dB"/>
+            <sample end="77621.000" hiNote="44" hiVel="64" loNote="44" loVel="1" path="Terkelsen's Marimba - xfade Samples/44 p.wav" pitchKeyTrack="1.0000" rootNote="44" start="0.000"/>
+            <sample end="79311.000" hiNote="45" hiVel="64" loNote="45" loVel="1" path="Terkelsen's Marimba - xfade Samples/45 p.wav" pitchKeyTrack="1.0000" rootNote="45" start="0.000"/>
+            <sample end="72310.000" hiNote="46" hiVel="64" loNote="46" loVel="1" path="Terkelsen's Marimba - xfade Samples/46 p.wav" pitchKeyTrack="1.0000" rootNote="46" start="0.000"/>
+            <sample end="70310.000" hiNote="47" hiVel="64" loNote="47" loVel="1" path="Terkelsen's Marimba - xfade Samples/47 p.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="82269.000" hiNote="48" hiVel="64" loNote="48" loVel="1" path="Terkelsen's Marimba - xfade Samples/48 p.wav" pitchKeyTrack="1.0000" rootNote="48" start="0.000"/>
+            <sample end="78499.000" hiNote="49" hiVel="64" loNote="49" loVel="1" path="Terkelsen's Marimba - xfade Samples/49 p.wav" pitchKeyTrack="1.0000" rootNote="49" start="0.000"/>
+            <sample end="65687.000" hiNote="50" hiVel="64" loNote="50" loVel="1" path="Terkelsen's Marimba - xfade Samples/50 p.wav" pitchKeyTrack="1.0000" rootNote="50" start="0.000"/>
+            <sample end="66236.000" hiNote="51" hiVel="64" loNote="51" loVel="1" path="Terkelsen's Marimba - xfade Samples/51 p.wav" pitchKeyTrack="1.0000" rootNote="51" start="0.000"/>
+            <sample end="66326.000" hiNote="52" hiVel="64" loNote="52" loVel="1" path="Terkelsen's Marimba - xfade Samples/52 p.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="60740.000" hiNote="53" hiVel="64" loNote="53" loVel="1" path="Terkelsen's Marimba - xfade Samples/53 p.wav" pitchKeyTrack="1.0000" rootNote="53" start="0.000"/>
+            <sample end="60194.000" hiNote="54" hiVel="64" loNote="54" loVel="1" path="Terkelsen's Marimba - xfade Samples/54 p.wav" pitchKeyTrack="1.0000" rootNote="54" start="0.000"/>
+            <sample end="57674.000" hiNote="55" hiVel="64" loNote="55" loVel="1" path="Terkelsen's Marimba - xfade Samples/55 p.wav" pitchKeyTrack="1.0000" rootNote="55" start="0.000"/>
+            <sample end="53720.000" hiNote="56" hiVel="64" loNote="56" loVel="1" path="Terkelsen's Marimba - xfade Samples/56 p.wav" pitchKeyTrack="1.0000" rootNote="56" start="0.000"/>
+            <sample end="58924.000" hiNote="57" hiVel="64" loNote="57" loVel="1" path="Terkelsen's Marimba - xfade Samples/57 p.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="58509.000" hiNote="58" hiVel="64" loNote="58" loVel="1" path="Terkelsen's Marimba - xfade Samples/58 p.wav" pitchKeyTrack="1.0000" rootNote="58" start="0.000"/>
+            <sample end="69637.000" hiNote="59" hiVel="64" loNote="59" loVel="1" path="Terkelsen's Marimba - xfade Samples/59 p.wav" pitchKeyTrack="1.0000" rootNote="59" start="0.000"/>
+            <sample end="55779.000" hiNote="60" hiVel="64" loNote="60" loVel="1" path="Terkelsen's Marimba - xfade Samples/60 p.wav" pitchKeyTrack="1.0000" rootNote="60" start="0.000"/>
+            <sample end="58039.000" hiNote="61" hiVel="64" loNote="61" loVel="1" path="Terkelsen's Marimba - xfade Samples/61 p.wav" pitchKeyTrack="1.0000" rootNote="61" start="0.000"/>
+            <sample end="55414.000" hiNote="62" hiVel="64" loNote="62" loVel="1" path="Terkelsen's Marimba - xfade Samples/62 p.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="50704.000" hiNote="63" hiVel="64" loNote="63" loVel="1" path="Terkelsen's Marimba - xfade Samples/63 p.wav" pitchKeyTrack="1.0000" rootNote="63" start="0.000" volume="3.0dB"/>
+            <sample end="49898.000" hiNote="64" hiVel="64" loNote="64" loVel="1" path="Terkelsen's Marimba - xfade Samples/64 p.wav" pitchKeyTrack="1.0000" rootNote="64" start="0.000" volume="10.0dB"/>
+            <sample end="48249.000" hiNote="65" hiVel="64" loNote="65" loVel="1" path="Terkelsen's Marimba - xfade Samples/65 p.wav" pitchKeyTrack="1.0000" rootNote="65" start="0.000"/>
+            <sample end="48178.000" hiNote="66" hiVel="64" loNote="66" loVel="1" path="Terkelsen's Marimba - xfade Samples/66 p.wav" pitchKeyTrack="1.0000" rootNote="66" start="0.000"/>
+            <sample end="42842.000" hiNote="67" hiVel="64" loNote="67" loVel="1" path="Terkelsen's Marimba - xfade Samples/67 p.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000" volume="3.0dB"/>
+            <sample end="43210.000" hiNote="68" hiVel="64" loNote="68" loVel="1" path="Terkelsen's Marimba - xfade Samples/68 p.wav" pitchKeyTrack="1.0000" rootNote="68" start="0.000" volume="1.0dB"/>
+            <sample end="39959.000" hiNote="69" hiVel="64" loNote="69" loVel="1" path="Terkelsen's Marimba - xfade Samples/69 p.wav" pitchKeyTrack="1.0000" rootNote="69" start="0.000" volume="3.0dB"/>
+            <sample end="38080.000" hiNote="70" hiVel="64" loNote="70" loVel="1" path="Terkelsen's Marimba - xfade Samples/70 p.wav" pitchKeyTrack="1.0000" rootNote="70" start="0.000"/>
+            <sample end="37442.000" hiNote="71" hiVel="64" loNote="71" loVel="1" path="Terkelsen's Marimba - xfade Samples/71 p.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="38610.000" hiNote="72" hiVel="64" loNote="72" loVel="1" path="Terkelsen's Marimba - xfade Samples/72 p.wav" pitchKeyTrack="1.0000" rootNote="72" start="0.000" volume="4.0dB"/>
+			
+            <sample end="109889.000" hiNote="24" hiVel="108" loNote="10" loVel="22" path="Terkelsen's Marimba - xfade Samples/24 m.wav" pitchKeyTrack="1.0000" rootNote="24" start="0.000"/>
+            <sample end="108897.000" hiNote="25" hiVel="108" loNote="25" loVel="22" path="Terkelsen's Marimba - xfade Samples/25 m.wav" pitchKeyTrack="1.0000" rootNote="25" start="0.000"/>
+            <sample end="98194.000" hiNote="26" hiVel="108" loNote="26" loVel="22" path="Terkelsen's Marimba - xfade Samples/26 m.wav" pitchKeyTrack="1.0000" rootNote="26" start="0.000"/>
+            <sample end="102538.000" hiNote="27" hiVel="108" loNote="27" loVel="22" path="Terkelsen's Marimba - xfade Samples/27 m.wav" pitchKeyTrack="1.0000" rootNote="27" start="0.000"/>
+            <sample end="190426.000" hiNote="28" hiVel="108" loNote="28" loVel="22" path="Terkelsen's Marimba - xfade Samples/28 m.wav" pitchKeyTrack="1.0000" rootNote="28" start="0.000"/>
+            <sample end="146397.000" hiNote="29" hiVel="108" loNote="29" loVel="22" path="Terkelsen's Marimba - xfade Samples/29 m.wav" pitchKeyTrack="1.0000" rootNote="29" start="0.000"/>
+            <sample end="111496.000" hiNote="30" hiVel="108" loNote="30" loVel="22" path="Terkelsen's Marimba - xfade Samples/30 m.wav" pitchKeyTrack="1.0000" rootNote="30" start="0.000"/>
+            <sample end="118669.000" hiNote="31" hiVel="108" loNote="31" loVel="22" path="Terkelsen's Marimba - xfade Samples/31 m.wav" pitchKeyTrack="1.0000" rootNote="31" start="0.000"/>
+            <sample end="98249.000" hiNote="32" hiVel="108" loNote="32" loVel="22" path="Terkelsen's Marimba - xfade Samples/32 m.wav" pitchKeyTrack="1.0000" rootNote="32" start="0.000"/>
+            <sample end="94400.000" hiNote="33" hiVel="108" loNote="33" loVel="22" path="Terkelsen's Marimba - xfade Samples/33 m.wav" pitchKeyTrack="1.0000" rootNote="33" start="0.000"/>
+            <sample end="97809.000" hiNote="34" hiVel="108" loNote="34" loVel="22" path="Terkelsen's Marimba - xfade Samples/34 m.wav" pitchKeyTrack="1.0000" rootNote="34" start="0.000"/>
+            <sample end="94533.000" hiNote="35" hiVel="108" loNote="35" loVel="22" path="Terkelsen's Marimba - xfade Samples/35 m.wav" pitchKeyTrack="1.0000" rootNote="35" start="0.000"/>
+            <sample end="99210.000" hiNote="36" hiVel="108" loNote="36" loVel="22" path="Terkelsen's Marimba - xfade Samples/36 m.wav" pitchKeyTrack="1.0000" rootNote="36" start="0.000"/>
+            <sample end="113470.000" hiNote="37" hiVel="108" loNote="37" loVel="22" path="Terkelsen's Marimba - xfade Samples/37 m.wav" pitchKeyTrack="1.0000" rootNote="37" start="0.000"/>
+            <sample end="89496.000" hiNote="38" hiVel="108" loNote="38" loVel="22" path="Terkelsen's Marimba - xfade Samples/38 m.wav" pitchKeyTrack="1.0000" rootNote="38" start="0.000"/>
+            <sample end="112154.000" hiNote="39" hiVel="108" loNote="39" loVel="22" path="Terkelsen's Marimba - xfade Samples/39 m.wav" pitchKeyTrack="1.0000" rootNote="39" start="0.000"/>
+            <sample end="88135.000" hiNote="40" hiVel="108" loNote="40" loVel="22" path="Terkelsen's Marimba - xfade Samples/40 m.wav" pitchKeyTrack="1.0000" rootNote="40" start="0.000"/>
+            <sample end="105682.000" hiNote="41" hiVel="108" loNote="41" loVel="22" path="Terkelsen's Marimba - xfade Samples/41 m.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="101999.000" hiNote="42" hiVel="108" loNote="42" loVel="22" path="Terkelsen's Marimba - xfade Samples/42 m.wav" pitchKeyTrack="1.0000" rootNote="42" start="0.000"/>
+            <sample end="94422.000" hiNote="43" hiVel="108" loNote="43" loVel="22" path="Terkelsen's Marimba - xfade Samples/43 m.wav" pitchKeyTrack="1.0000" rootNote="43" start="0.000"/>
+            <sample end="87643.000" hiNote="44" hiVel="108" loNote="44" loVel="22" path="Terkelsen's Marimba - xfade Samples/44 m.wav" pitchKeyTrack="1.0000" rootNote="44" start="0.000"/>
+            <sample end="84819.000" hiNote="45" hiVel="108" loNote="45" loVel="22" path="Terkelsen's Marimba - xfade Samples/45 m.wav" pitchKeyTrack="1.0000" rootNote="45" start="0.000"/>
+            <sample end="76424.000" hiNote="46" hiVel="108" loNote="46" loVel="22" path="Terkelsen's Marimba - xfade Samples/46 m.wav" pitchKeyTrack="1.0000" rootNote="46" start="0.000"/>
+            <sample end="77243.000" hiNote="47" hiVel="108" loNote="47" loVel="22" path="Terkelsen's Marimba - xfade Samples/47 m.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="89970.000" hiNote="48" hiVel="108" loNote="48" loVel="22" path="Terkelsen's Marimba - xfade Samples/48 m.wav" pitchKeyTrack="1.0000" rootNote="48" start="0.000"/>
+            <sample end="89142.000" hiNote="49" hiVel="108" loNote="49" loVel="22" path="Terkelsen's Marimba - xfade Samples/49 m.wav" pitchKeyTrack="1.0000" rootNote="49" start="0.000"/>
+            <sample end="72174.000" hiNote="50" hiVel="108" loNote="50" loVel="22" path="Terkelsen's Marimba - xfade Samples/50 m.wav" pitchKeyTrack="1.0000" rootNote="50" start="0.000"/>
+            <sample end="69298.000" hiNote="51" hiVel="108" loNote="51" loVel="22" path="Terkelsen's Marimba - xfade Samples/51 m.wav" pitchKeyTrack="1.0000" rootNote="51" start="0.000" volume="5.0dB"/>
+            <sample end="74123.000" hiNote="52" hiVel="108" loNote="52" loVel="22" path="Terkelsen's Marimba - xfade Samples/52 m.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="65489.000" hiNote="53" hiVel="108" loNote="53" loVel="22" path="Terkelsen's Marimba - xfade Samples/53 m.wav" pitchKeyTrack="1.0000" rootNote="53" start="0.000"/>
+            <sample end="65707.000" hiNote="54" hiVel="108" loNote="54" loVel="22" path="Terkelsen's Marimba - xfade Samples/54 m.wav" pitchKeyTrack="1.0000" rootNote="54" start="0.000"/>
+            <sample end="65055.000" hiNote="55" hiVel="108" loNote="55" loVel="22" path="Terkelsen's Marimba - xfade Samples/55 m.wav" pitchKeyTrack="1.0000" rootNote="55" start="0.000"/>
+            <sample end="60081.000" hiNote="56" hiVel="108" loNote="56" loVel="22" path="Terkelsen's Marimba - xfade Samples/56 m.wav" pitchKeyTrack="1.0000" rootNote="56" start="0.000"/>
+            <sample end="60288.000" hiNote="57" hiVel="108" loNote="57" loVel="22" path="Terkelsen's Marimba - xfade Samples/57 m.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="60437.000" hiNote="58" hiVel="108" loNote="58" loVel="22" path="Terkelsen's Marimba - xfade Samples/58 m.wav" pitchKeyTrack="1.0000" rootNote="58" start="0.000"/>
+            <sample end="57800.000" hiNote="59" hiVel="108" loNote="59" loVel="22" path="Terkelsen's Marimba - xfade Samples/59 m.wav" pitchKeyTrack="1.0000" rootNote="59" start="0.000"/>
+            <sample end="63301.000" hiNote="60" hiVel="108" loNote="60" loVel="22" path="Terkelsen's Marimba - xfade Samples/60 m.wav" pitchKeyTrack="1.0000" rootNote="60" start="0.000"/>
+            <sample end="60423.000" hiNote="61" hiVel="108" loNote="61" loVel="22" path="Terkelsen's Marimba - xfade Samples/61 m.wav" pitchKeyTrack="1.0000" rootNote="61" start="0.000"/>
+            <sample end="58073.000" hiNote="62" hiVel="108" loNote="62" loVel="22" path="Terkelsen's Marimba - xfade Samples/62 m.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="58416.000" hiNote="63" hiVel="108" loNote="63" loVel="22" path="Terkelsen's Marimba - xfade Samples/63 m.wav" pitchKeyTrack="1.0000" rootNote="63" start="0.000"/>
+            <sample end="55541.000" hiNote="64" hiVel="108" loNote="64" loVel="22" path="Terkelsen's Marimba - xfade Samples/64 m.wav" pitchKeyTrack="1.0000" rootNote="64" start="0.000"/>
+            <sample end="50934.000" hiNote="65" hiVel="108" loNote="65" loVel="22" path="Terkelsen's Marimba - xfade Samples/65 m.wav" pitchKeyTrack="1.0000" rootNote="65" start="0.000"/>
+            <sample end="48503.000" hiNote="66" hiVel="108" loNote="66" loVel="22" path="Terkelsen's Marimba - xfade Samples/66 m.wav" pitchKeyTrack="1.0000" rootNote="66" start="0.000"/>
+            <sample end="46134.000" hiNote="67" hiVel="108" loNote="67" loVel="22" path="Terkelsen's Marimba - xfade Samples/67 m.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="46582.000" hiNote="68" hiVel="108" loNote="68" loVel="22" path="Terkelsen's Marimba - xfade Samples/68 m.wav" pitchKeyTrack="1.0000" rootNote="68" start="0.000"/>
+            <sample end="44799.000" hiNote="69" hiVel="108" loNote="69" loVel="22" path="Terkelsen's Marimba - xfade Samples/69 m.wav" pitchKeyTrack="1.0000" rootNote="69" start="0.000" volume="-1.5dB"/>
+            <sample end="39684.000" hiNote="70" hiVel="108" loNote="70" loVel="22" path="Terkelsen's Marimba - xfade Samples/70 m.wav" pitchKeyTrack="1.0000" rootNote="70" start="0.000"/>
+            <sample end="39401.000" hiNote="71" hiVel="108" loNote="71" loVel="22" path="Terkelsen's Marimba - xfade Samples/71 m.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="36270.000" hiNote="72" hiVel="108" loNote="72" loVel="22" path="Terkelsen's Marimba - xfade Samples/72 m.wav" pitchKeyTrack="1.0000" rootNote="72" start="0.000" volume="-2.0dB"/>
+			
+            <sample end="88046.000" hiNote="24" hiVel="127" loNote="10" loVel="65" path="Terkelsen's Marimba - xfade Samples/24 f.wav" pitchKeyTrack="1.0000" rootNote="24" start="0.000"/>
+            <sample end="132434.000" hiNote="25" hiVel="127" loNote="25" loVel="65" path="Terkelsen's Marimba - xfade Samples/25 f.wav" pitchKeyTrack="1.0000" rootNote="25" start="0.000"/>
+            <sample end="116131.000" hiNote="26" hiVel="127" loNote="26" loVel="65" path="Terkelsen's Marimba - xfade Samples/26 f.wav" pitchKeyTrack="1.0000" rootNote="26" start="0.000"/>
+            <sample end="127426.000" hiNote="27" hiVel="127" loNote="27" loVel="65" path="Terkelsen's Marimba - xfade Samples/27 f.wav" pitchKeyTrack="1.0000" rootNote="27" start="0.000"/>
+            <sample end="133068.000" hiNote="28" hiVel="127" loNote="28" loVel="65" path="Terkelsen's Marimba - xfade Samples/28 f.wav" pitchKeyTrack="1.0000" rootNote="28" start="0.000"/>
+            <sample end="116578.000" hiNote="29" hiVel="127" loNote="29" loVel="65" path="Terkelsen's Marimba - xfade Samples/29 f.wav" pitchKeyTrack="1.0000" rootNote="29" start="0.000"/>
+            <sample end="121476.000" hiNote="30" hiVel="127" loNote="30" loVel="65" path="Terkelsen's Marimba - xfade Samples/30 f.wav" pitchKeyTrack="1.0000" rootNote="30" start="0.000"/>
+            <sample end="126774.000" hiNote="31" hiVel="127" loNote="31" loVel="65" path="Terkelsen's Marimba - xfade Samples/31 f.wav" pitchKeyTrack="1.0000" rootNote="31" start="0.000"/>
+            <sample end="89741.000" hiNote="32" hiVel="127" loNote="32" loVel="65" path="Terkelsen's Marimba - xfade Samples/32 f.wav" pitchKeyTrack="1.0000" rootNote="32" start="0.000"/>
+            <sample end="95870.000" hiNote="33" hiVel="127" loNote="33" loVel="65" path="Terkelsen's Marimba - xfade Samples/33 f.wav" pitchKeyTrack="1.0000" rootNote="33" start="0.000"/>
+            <sample end="83640.000" hiNote="34" hiVel="127" loNote="34" loVel="65" path="Terkelsen's Marimba - xfade Samples/34 f.wav" pitchKeyTrack="1.0000" rootNote="34" start="0.000"/>
+            <sample end="87431.000" hiNote="35" hiVel="127" loNote="35" loVel="65" path="Terkelsen's Marimba - xfade Samples/35 f.wav" pitchKeyTrack="1.0000" rootNote="35" start="0.000"/>
+            <sample end="94142.000" hiNote="36" hiVel="127" loNote="36" loVel="65" path="Terkelsen's Marimba - xfade Samples/36 f.wav" pitchKeyTrack="1.0000" rootNote="36" start="0.000"/>
+            <sample end="86545.000" hiNote="37" hiVel="127" loNote="37" loVel="65" path="Terkelsen's Marimba - xfade Samples/37 f.wav" pitchKeyTrack="1.0000" rootNote="37" start="0.000"/>
+            <sample end="103880.000" hiNote="38" hiVel="127" loNote="38" loVel="65" path="Terkelsen's Marimba - xfade Samples/38 f.wav" pitchKeyTrack="1.0000" rootNote="38" start="0.000"/>
+            <sample end="100104.000" hiNote="39" hiVel="127" loNote="39" loVel="65" path="Terkelsen's Marimba - xfade Samples/39 f.wav" pitchKeyTrack="1.0000" rootNote="39" start="0.000"/>
+            <sample end="98577.000" hiNote="40" hiVel="127" loNote="40" loVel="65" path="Terkelsen's Marimba - xfade Samples/40 f.wav" pitchKeyTrack="1.0000" rootNote="40" start="0.000"/>
+            <sample end="93862.000" hiNote="41" hiVel="127" loNote="41" loVel="65" path="Terkelsen's Marimba - xfade Samples/41 f.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="90960.000" hiNote="42" hiVel="127" loNote="42" loVel="65" path="Terkelsen's Marimba - xfade Samples/42 f.wav" pitchKeyTrack="1.0000" rootNote="42" start="0.000"/>
+            <sample end="81872.000" hiNote="43" hiVel="127" loNote="43" loVel="65" path="Terkelsen's Marimba - xfade Samples/43 f.wav" pitchKeyTrack="1.0000" rootNote="43" start="0.000"/>
+            <sample end="90907.000" hiNote="44" hiVel="127" loNote="44" loVel="65" path="Terkelsen's Marimba - xfade Samples/44 f.wav" pitchKeyTrack="1.0000" rootNote="44" start="0.000"/>
+            <sample end="82189.000" hiNote="45" hiVel="127" loNote="45" loVel="65" path="Terkelsen's Marimba - xfade Samples/45 f.wav" pitchKeyTrack="1.0000" rootNote="45" start="0.000" volume="0.687dB"/>
+            <sample end="79981.000" hiNote="46" hiVel="127" loNote="46" loVel="65" path="Terkelsen's Marimba - xfade Samples/46 f.wav" pitchKeyTrack="1.0000" rootNote="46" start="0.000"/>
+            <sample end="73063.000" hiNote="47" hiVel="127" loNote="47" loVel="65" path="Terkelsen's Marimba - xfade Samples/47 f.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="70451.000" hiNote="48" hiVel="127" loNote="48" loVel="65" path="Terkelsen's Marimba - xfade Samples/48 f.wav" pitchKeyTrack="1.0000" rootNote="48" start="0.000"/>
+            <sample end="84760.000" hiNote="49" hiVel="127" loNote="49" loVel="65" path="Terkelsen's Marimba - xfade Samples/49 f.wav" pitchKeyTrack="1.0000" rootNote="49" start="0.000" volume="0.964dB"/>
+            <sample end="73235.000" hiNote="50" hiVel="127" loNote="50" loVel="65" path="Terkelsen's Marimba - xfade Samples/50 f.wav" pitchKeyTrack="1.0000" rootNote="50" start="0.000"/>
+            <sample end="77937.000" hiNote="51" hiVel="127" loNote="51" loVel="65" path="Terkelsen's Marimba - xfade Samples/51 f.wav" pitchKeyTrack="1.0000" rootNote="51" start="0.000" volume="0.065dB"/>
+            <sample end="68870.000" hiNote="52" hiVel="127" loNote="52" loVel="65" path="Terkelsen's Marimba - xfade Samples/52 f.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="65844.000" hiNote="53" hiVel="127" loNote="53" loVel="65" path="Terkelsen's Marimba - xfade Samples/53 f.wav" pitchKeyTrack="1.0000" rootNote="53" start="0.000" volume="2.17dB"/>
+            <sample end="64946.000" hiNote="54" hiVel="127" loNote="54" loVel="65" path="Terkelsen's Marimba - xfade Samples/54 f.wav" pitchKeyTrack="1.0000" rootNote="54" start="0.000"/>
+            <sample end="62471.000" hiNote="55" hiVel="127" loNote="55" loVel="65" path="Terkelsen's Marimba - xfade Samples/55 f.wav" pitchKeyTrack="1.0000" rootNote="55" start="0.000"/>
+            <sample end="60375.000" hiNote="56" hiVel="127" loNote="56" loVel="65" path="Terkelsen's Marimba - xfade Samples/56 f.wav" pitchKeyTrack="1.0000" rootNote="56" start="0.000"/>
+            <sample end="58224.000" hiNote="57" hiVel="127" loNote="57" loVel="65" path="Terkelsen's Marimba - xfade Samples/57 f.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="60538.000" hiNote="58" hiVel="127" loNote="58" loVel="65" path="Terkelsen's Marimba - xfade Samples/58 f.wav" pitchKeyTrack="1.0000" rootNote="58" start="0.000"/>
+            <sample end="58818.000" hiNote="59" hiVel="127" loNote="59" loVel="65" path="Terkelsen's Marimba - xfade Samples/59 f.wav" pitchKeyTrack="1.0000" rootNote="59" start="0.000" volume="2.0dB"/>
+            <sample end="57419.000" hiNote="60" hiVel="127" loNote="60" loVel="65" path="Terkelsen's Marimba - xfade Samples/60 f.wav" pitchKeyTrack="1.0000" rootNote="60" start="0.000"/>
+            <sample end="58707.000" hiNote="61" hiVel="127" loNote="61" loVel="65" path="Terkelsen's Marimba - xfade Samples/61 f.wav" pitchKeyTrack="1.0000" rootNote="61" start="0.000"/>
+            <sample end="59094.000" hiNote="62" hiVel="127" loNote="62" loVel="65" path="Terkelsen's Marimba - xfade Samples/62 f.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="58179.000" hiNote="63" hiVel="127" loNote="63" loVel="65" path="Terkelsen's Marimba - xfade Samples/63 f.wav" pitchKeyTrack="1.0000" rootNote="63" start="0.000"/>
+            <sample end="53577.000" hiNote="64" hiVel="127" loNote="64" loVel="65" path="Terkelsen's Marimba - xfade Samples/64 f.wav" pitchKeyTrack="1.0000" rootNote="64" start="0.000"/>
+            <sample end="50286.000" hiNote="65" hiVel="127" loNote="65" loVel="65" path="Terkelsen's Marimba - xfade Samples/65 f.wav" pitchKeyTrack="1.0000" rootNote="65" start="0.000"/>
+            <sample end="49468.000" hiNote="66" hiVel="127" loNote="66" loVel="65" path="Terkelsen's Marimba - xfade Samples/66 f.wav" pitchKeyTrack="1.0000" rootNote="66" start="0.000"/>
+            <sample end="46819.000" hiNote="67" hiVel="127" loNote="67" loVel="65" path="Terkelsen's Marimba - xfade Samples/67 f.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="46702.000" hiNote="68" hiVel="127" loNote="68" loVel="65" path="Terkelsen's Marimba - xfade Samples/68 f.wav" pitchKeyTrack="1.0000" rootNote="68" start="0.000"/>
+            <sample end="43935.000" hiNote="69" hiVel="127" loNote="69" loVel="65" path="Terkelsen's Marimba - xfade Samples/69 f.wav" pitchKeyTrack="1.0000" rootNote="69" start="0.000"/>
+            <sample end="42209.000" hiNote="70" hiVel="127" loNote="70" loVel="65" path="Terkelsen's Marimba - xfade Samples/70 f.wav" pitchKeyTrack="1.0000" rootNote="70" start="0.000"/>
+            <sample end="40174.000" hiNote="71" hiVel="127" loNote="71" loVel="65" path="Terkelsen's Marimba - xfade Samples/71 f.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="40571.000" hiNote="72" hiVel="127" loNote="72" loVel="65" path="Terkelsen's Marimba - xfade Samples/72 f.wav" pitchKeyTrack="1.0000" rootNote="72" start="0.000"/>
+     </group>
+  </groups>
+  <effects>
+    <effect type="lowpass" frequency="22000.0"/>
+	<effect type="chorus"  mix="0.0" modDepth="0.2" modRate="0.2" />
+	<effect type="convolution" mix="0.5" irFile="IR/Studio.wav" />
+  </effects>
+  <midi>
+   
+    <cc number="1">
+      <binding level="ui" type="control" parameter="VALUE" position="3" 
+               translation="linear" translationOutputMin="0" 
+               translationOutputMax="1" />
+    </cc>
+  </midi>
+</DecentSampler>
+
